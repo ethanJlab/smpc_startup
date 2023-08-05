@@ -8,6 +8,9 @@ contract reciever {
         return true;
     }
 
-    fallback() externale payable {
+    fallback() external payable {
+    }
+
+    receive() external payable {
     }
 }

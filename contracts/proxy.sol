@@ -10,7 +10,10 @@ contract proxy {
         emit ProxyEvent(_data, _to, _toChainID);
         return true;
     } 
-    
-    fallback() externale payable {
+
+    fallback() external payable {
+    }
+
+    receive() external payable {
     }
 }

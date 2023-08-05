@@ -22,7 +22,10 @@ contract sender {
         emit newMessage(_message);
         return true;
     }
-    
-    fallback() externale payable {
+
+    fallback() external payable {
+    }
+
+    receive() external payable {
     }
 }
